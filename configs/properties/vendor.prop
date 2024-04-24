@@ -1,0 +1,69 @@
+# Adreno
+ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kalama.api33
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.opengles.version=196610
+graphics.gpu.profiler.support=true
+
+# Bluetooth
+persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptiver2
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
+
+# Camera
+camera.disable_zsl_mode=true
+ro.camera.enableCamera1MaxZsl=1
+
+# Display
+ro.vendor.display.ai_disp.enable=true
+ro.vendor.display.mi_calib.enable=true
+ro.vendor.display.nature_mode.enable=true
+ro.vendor.display.type=oled
+ro.vendor.displayfeature.dump=true
+ro.vendor.fps.switch.default=true
+ro.vendor.fps.switch.thermal=trues
+ro.vendor.hbm_backlight.enable=true
+ro.vendor.histogram.enable=true
+ro.vendor.localhbm.enable=true
+ro.vendor.thermal.dimming.enable=true
+ro.vendor.touchfeature.type=247
+ro.vendor.xiaomi.bl.poll=true
+
+# DPM
+persist.vendor.dpm.vndr.feature=11
+persist.vendor.dpm.vndr.halservice.enable=1
+persist.vendor.dpm.vndr.idletimer.mode=default
+
+# DRM
+drm.service.enabled=true
+
+# FM
+vendor.hw.fm.init=0
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# Incremental FS
+ro.incremental.enable=yes
+
+# Media
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+ro.mediaserver.64b.enable=true
+
+# NFC
+ro.vendor.nfc.disable.i2c=false
+ro.vendor.nfc.dispatch_optim=1
+ro.vendor.nfc.wallet_fusion=1
+ro.vendor.nfc.repair=1
+ro.vendor.se.chip.model=ST54K
+ro.vendor.se.type=HCE,UICC
+
+# Telephony
+persist.vendor.radio.redir_party_num=0
